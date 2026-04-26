@@ -224,8 +224,8 @@ defaultContentLanguage = "en"
     [params.contact.location]
       enabled = true
       address = "Mist university for science and technology"
-      latitude = "30.585070727964393"
-      longitude = "31.487296675825437"
+      latitude = "29.996801254594104"
+      longitude = "30.965485817754963"
 
 # Arabic Translations
 [params.ar]
