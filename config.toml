@@ -1,0 +1,330 @@
+baseURL = "https://portfoliohubs.github.io/drmahmoudashraf/"
+languageCode = "en-us"
+title = "Dr. Mahmoud Ashraf Mohamed"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Mahmoud Ashraf Mohamed"
+    tagline = "Internship Doctor"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/196e3b3c-8874-44f3-b804-f18a18f9293b"
+    profile_image_alt = "Profile photo of Dr. Mahmoud Ashraf Mohamed"
+    
+    [params.hero.current_position]
+      role = "Internship Doctor"
+      clinic = "Sooad kafai hospital, Al-sahaba center, Al-noor clinics, smile expertz centers"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Mahmoud Ashraf Mohamed"
+    doctor_name_ar = "د. محمود أشرف محمد"
+    site_name = "Dr. Mahmoud Ashraf Mohamed"
+    og_image = ""
+    favicon_image = ""
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Mahmoud Ashraf Mohamed",
+      "دكتور محمود اشرف",
+      "دكتور محمود اشرف اسنان",
+      "دكتور محمود اسنان",
+      "MIST university",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. محمود أشرف محمد",
+      "دكتور محمود اشرف",
+      "دكتور محمود اشرف اسنان",
+      "دكتور محمود اسنان",
+      "جامعة مصر للعلوم والتكنولوجيا",
+      "عيادة اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Gp skills",
+      "Surgery",
+      "Operative",
+      "Fixed prosthesis",
+      "Endodontics",
+      "Pedodontics"
+    ]
+    
+    digital = [
+      "Dental Photography",
+      "PowerPoint",
+      "CAD/CAM",
+      "Case Documentation & Reporting",
+      "Digital Patient Records Management",
+      "Online Dental Research"
+    ]
+    
+    soft = [
+      "Discipline",
+      "Time management",
+      "Patients management and communication"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Mist university for science and technology"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "الحشو العادى والتجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/340c2427-0d2a-4a59-a4a8-1c93c2ac6228"
+      alt = "Diastema closure& multiple class III"
+      description = "Diastema closure& multiple class III"
+      alt_ar = "حشو تجميلى ليزر للاسنان الاماميه"
+      description_ar = "حشو تجميلى ليزر للاسنان الاماميه"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/cb82814a-67d9-47b5-a552-3ed69134412f"
+      alt = "Class II upper right 6"
+      description = "Class II upper right 6"
+      alt_ar = "حشو عادى للضرس السادس بالفك العلوى"
+      description_ar = "حشو عادى للضرس السادس بالفك العلوى"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو العصب(علاج الجذور)"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/8f0988cd-273e-4333-b7e9-3aa3d8f8be56"
+      alt = "RCT for upper 6"
+      description = "RCT for upper 6"
+      alt_ar = "حشو عصب للضرس السادس بالفك العلوى"
+      description_ar = "حشو عصب للضرس السادس بالفك العلوى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1ae934e4-c81b-4d02-ba93-d411cb4868da"
+      alt = "Rct for u5"
+      description = "Rct for u5"
+      alt_ar = "حشو عصب للضرس الخامس علوى"
+      description_ar = "حشو عصب للضرس الخامس علوى"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Pedodontics"
+    category_ar = "أسنان الأطفال"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/b76c662e-c387-467d-8229-f4018024ce89"
+      alt = "Pulpotomy& scc"
+      description = "Pulpotomy& scc"
+      alt_ar = "حشو عصب وطربوش لطفل"
+      description_ar = "حشو عصب وطربوش لطفل"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/73679c30-8800-46e0-9cbb-abde0dc76387"
+      alt = "Space maintainer"
+      description = "Space maintainer"
+      alt_ar = "الحفاظ على المسافه بين الاسنان لطفل"
+      description_ar = "الحفاظ على المسافه بين الاسنان لطفل"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01010471333"
+    whatsapp = "01010471333"
+    email = "mahmoudashraf471471@gmail.com"
+    instagram = ""
+    facebook = "https://www.facebook.com/share/1GiRFDr5nz/?mibextid=wwXIfr"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "Mist university for science and technology"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. محمود أشرف محمد"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور محمود أشرف محمد"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "مستشفي سعاد كفافي ، مركز الصحابة باكتوبر ، عيادات النور ، مراكز smile expertz"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحة",
+      "حشو عصب",
+      "حشو تجميلي",
+      "تركيبات",
+      "اطفال"
+    ]
+    
+    digital = [
+      "التصوير الطبي",
+      "PowerPoint",
+      "CAD/CAM",
+      "توثيق وكتابة الحالات السريرية",
+      "البحث الطبي"
+    ]
+    
+    soft = [
+      "الالتزام",
+      "ادارة الوقت",
+      "التواصل مع المرضي"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة مصر للعلوم والتكنولوجيا"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2020 الدخول للكلية"
+    
+    [[params.ar.education.timeline]]
+      event = "2025 التخرج من الكلية"  
+
+  [params.ar.contact.location]
+    address = "بجامعة مصر للعلوم والتكنولوجيا"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
